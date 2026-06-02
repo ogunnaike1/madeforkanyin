@@ -5,9 +5,12 @@ import { motion } from "framer-motion";
 interface VideoCardProps {
   src: string;
   idx?: number;
+  label?: string;
 }
 
-export function VideoCard({ src, idx = 0 }: VideoCardProps) {
+const DEFAULT_LABELS = ["just her doing her thing ✨", "she's everything 💖"];
+
+export function VideoCard({ src, idx = 0, label }: VideoCardProps) {
   const ref = useRef<HTMLVideoElement>(null);
   const [hovered, setHovered] = useState(false);
   const [loaded, setLoaded] = useState(false);
@@ -36,7 +39,6 @@ export function VideoCard({ src, idx = 0 }: VideoCardProps) {
       onHoverEnd={handleHoverEnd}
       whileHover={{ scale: 1.04, zIndex: 20 }}
     >
-      {/* animated gradient border ring */}
       <motion.div
         className="vc-ring"
         animate={{ opacity: hovered ? 1 : 0, scale: hovered ? 1 : 0.96 }}
@@ -55,7 +57,6 @@ export function VideoCard({ src, idx = 0 }: VideoCardProps) {
           onLoadedMetadata={() => setLoaded(true)}
         />
 
-        {/* play overlay */}
         <motion.div
           className="vc-overlay"
           animate={{ opacity: hovered ? 0 : 1 }}
@@ -70,17 +71,15 @@ export function VideoCard({ src, idx = 0 }: VideoCardProps) {
           </motion.div>
         </motion.div>
 
-        {/* shimmer while loading */}
         {!loaded && <div className="vc-shimmer" />}
       </div>
 
-      {/* bottom label */}
       <motion.p
         className="ff-script vc-label"
         animate={{ opacity: hovered ? 1 : 0.5, y: hovered ? 0 : 4 }}
         transition={{ duration: 0.3 }}
       >
-        {idx === 0 ? "just her doing her thing ✨" : "she's everything 💖"}
+        {label ?? DEFAULT_LABELS[idx % DEFAULT_LABELS.length]}
       </motion.p>
     </motion.div>
   );

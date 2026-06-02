@@ -5,7 +5,7 @@ export const CONFIG = {
   secretCode: "143",
   codeHint: "Three little numbers… for three little words 💌",
   // Optional: set a URL or path like "/audio/song.mp3" to enable music
-  musicUrl: "https://res.cloudinary.com/dhmqhless/video/upload/v1780326163/Lord_Huron_-_The_Night_We_Met_kh7xus.mp3",
+  musicUrl: "https://res.cloudinary.com/dhmqhless/video/upload/f_mp3,q_auto/v1780326163/Lord_Huron_-_The_Night_We_Met_kh7xus.mp3",
 };
 
 export interface StorySection {
@@ -60,7 +60,7 @@ export const STORY: StorySection[] = [
     ],
     photos: [
       { caption: "from the very beginning 🌸", src: "https://res.cloudinary.com/dhmqhless/image/upload/f_auto,q_auto/v1780325617/kanyin-13.jpeg.HEIC.jpeg_cneo1r.heic" },
-      { caption: "look at us 🤍", src: "https://res.cloudinary.com/dhmqhless/image/upload/v1780325530/kanyin-12.jpeg.HEIC_fhkelc.jpg" },
+      { caption: "look at us 🤍", src: "https://res.cloudinary.com/dhmqhless/image/upload/f_auto,q_auto/v1780325530/kanyin-12.jpeg.HEIC_fhkelc.jpg" },
     ],
     photoNote: "Some things are just meant to be…",
   },

@@ -6,8 +6,8 @@ import { VideoCard } from "@/components/VideoCard";
 import { STORY } from "@/lib/data";
 
 const VIDEOS = [
-  "https://res.cloudinary.com/dhmqhless/video/upload/v1780326137/kanyin-5.jpeg_w1tk5b.mp4",
-  "https://res.cloudinary.com/dhmqhless/video/upload/v1780325529/kanyin-6.jpeg_gmtp59.mp4",
+  "https://res.cloudinary.com/dhmqhless/video/upload/f_mp4,vc_h264,q_auto/v1780326137/kanyin-5.jpeg_w1tk5b.mp4",
+  "https://res.cloudinary.com/dhmqhless/video/upload/f_mp4,vc_h264,q_auto/v1780325529/kanyin-6.jpeg_gmtp59.mp4",
 ];
 
 function Reveal({
