@@ -96,8 +96,8 @@ export const STORY: StorySection[] = [
       "I've joked so many times that you're lucky I love you this much… but if I'm being honest, it's because my love for you has never been based on perfection.",
       "I've seen your best days and your difficult days. The version of you that's confident and the one that doubts herself. The parts of you that are easy to love and the parts that are still growing.",
       "And through it all… I've loved you the same. Not because you're perfect — but because you're you.",
+      "If I had to choose my friend all over again, in every lifetime… I'd still choose you.",
     ],
-    quote2: "If I had to choose my friend all over again, in every lifetime… I'd still choose you.",
     photos: [
       { caption: "still her, through it all 🤍", src: "https://res.cloudinary.com/dhmqhless/image/upload/v1780325534/kanyin-8_qi1bpv.jpg" },
     ],
