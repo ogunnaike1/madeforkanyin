@@ -77,8 +77,6 @@ export const STORY: StorySection[] = [
     photos: [
       { caption: "This was the day I realized you're special", src: "https://res.cloudinary.com/dhmqhless/image/upload/f_auto,q_auto/v1780326113/kanyin-15_igtdmc.heic" },
       { caption: "Still one of my favourite memories", src: "https://res.cloudinary.com/dhmqhless/image/upload/f_auto,q_auto/v1780325534/kanyin-10.jpeg_xp0jda.heic" },
-      { caption: "Every silent look — that's us 🤍", src: "https://res.cloudinary.com/dhmqhless/image/upload/f_auto,q_auto/v1780325531/kanyin-18_nshugg.heic" },
-      { caption: "pure joy 🌟", src: "https://res.cloudinary.com/dhmqhless/image/upload/f_auto,q_auto/v1780325531/kanyin-18_nshugg.heic" },
     ],
     photoNote: "These pictures say more than I can…",
   },
