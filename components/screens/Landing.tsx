@@ -19,31 +19,17 @@ export function Landing({ onNext }: { onNext: () => void }) {
         initial="hidden"
         animate="show"
       >
-        <motion.p
-          className="ff-script kicker-script"
-          custom={0}
-          variants={item}
-        >
-          for you,
-        </motion.p>
         <motion.h1
           className="ff-serif hook-line"
-          custom={1}
+          custom={0}
           variants={item}
         >
           Hey… I have<br />something for you
           <span className="hook-heart"> ❤️</span>
         </motion.h1>
-        <motion.div custom={2} variants={item}>
+        <motion.div custom={1} variants={item}>
           <PrimaryButton onClick={onNext}>Click to begin</PrimaryButton>
         </motion.div>
-        <motion.p
-          className="ff-body tiny-note"
-          custom={3}
-          variants={item}
-        >
-          press play on something beautiful
-        </motion.p>
       </motion.div>
     </div>
   );

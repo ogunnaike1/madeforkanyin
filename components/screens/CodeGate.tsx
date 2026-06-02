@@ -47,7 +47,7 @@ export function CodeGate({ onUnlock, onCorrect }: { onUnlock: () => void; onCorr
         <p className="ff-script code-greet">Happy Birthday,</p>
         <h2 className="ff-serif code-name">{CONFIG.fullName}</h2>
         <p className="ff-body code-sub">
-          This was made for one person. Enter your code to come in.
+          Enter your code to come in.
         </p>
 
         <div className="code-input-wrap">

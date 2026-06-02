@@ -3,7 +3,7 @@ export const CONFIG = {
   fullName: "Adetona Kanyinsola Folarera",
   // 🔐 Change this to something only she would know
   secretCode: "143",
-  codeHint: "Three little numbers… for three little words 💌",
+  codeHint: "",
   // Optional: set a URL or path like "/audio/song.mp3" to enable music
   musicUrl: "https://res.cloudinary.com/dhmqhless/video/upload/f_mp3,q_auto/v1780326163/Lord_Huron_-_The_Night_We_Met_kh7xus.mp3",
 };
@@ -29,7 +29,7 @@ export const STORY: StorySection[] = [
     id: "welcome",
     kicker: "welcome",
     emoji: "💖",
-    title: "This was made just for you",
+    title: "",
     paras: [
       "This little corner of the internet was made just for you.",
       "A place filled with memories, laughter, growth, and all the things I never want you to forget.",
@@ -37,9 +37,9 @@ export const STORY: StorySection[] = [
     ],
     photoNote: "Look at you…",
     photos: [
-      { caption: "always her 💖", src: "https://res.cloudinary.com/dhmqhless/image/upload/v1780325529/kanyin-3_icftxf.jpg" },
-      { caption: "radiant as ever", src: "https://res.cloudinary.com/dhmqhless/image/upload/v1780325529/kanyin-1_rydd4j.jpg" },
-      { caption: "she just glows ✨", src: "https://res.cloudinary.com/dhmqhless/image/upload/v1780325529/kanyin-4_r41lv8.jpg" },
+      { caption: "Little star ⭐", src: "https://res.cloudinary.com/dhmqhless/image/upload/v1780325529/kanyin-3_icftxf.jpg" },
+      { caption: "Twin Energy 🐒", src: "https://res.cloudinary.com/dhmqhless/image/upload/v1780325529/kanyin-1_rydd4j.jpg" },
+      { caption: "Purrfect Match 😭", src: "https://res.cloudinary.com/dhmqhless/image/upload/v1780325529/kanyin-4_r41lv8.jpg" },
       { caption: "my favourite person", src: "https://res.cloudinary.com/dhmqhless/image/upload/v1780325536/kanyin-7_c8sapn.jpg" },
     ],
   },
@@ -53,9 +53,8 @@ export const STORY: StorySection[] = [
       "But somewhere between all the voice notes, the stickers we kept sending each other, the calls that lasted longer than they were supposed to, and the random check-ins… you became someone I genuinely cannot imagine doing life without.",
       "Sometimes I wonder how different my life would have been if our paths never crossed.",
     ],
-    quote: "Out of all the people I could have met, somehow I got you.",
     parasAfter: [
-      "Through different phases of life, changing dreams, new experiences, and unexpected challenges, our friendship has remained one of the most constant things in my life.",
+      "Out of all the people I could have met, somehow I got you. Through different phases of life, changing dreams, new experiences, and unexpected challenges, our friendship has remained one of the most constant things in my life.",
       "And that's something I will never take for granted.",
     ],
     photos: [
@@ -94,9 +93,8 @@ export const STORY: StorySection[] = [
       "One of those moments taught me something important about us. When I was feeling unwell, things didn't happen quite the way I expected, and for a while I sat with that.",
       "But when I look back now, what stays with me isn't the disappointment… it's what came after.",
     ],
-    quote: "You came back. We talked about it. We understood each other. And we chose our friendship anyway.",
     parasAfter: [
-      "That's one thing I love about us — we don't pretend we're perfect. We make mistakes, we learn, we grow… and somehow, we always find our way back to each other.",
+      "You came back. We talked about it. We understood each other. And we chose our friendship anyway. That's one thing I love about us — we don't pretend we're perfect. We make mistakes, we learn, we grow… and somehow, we always find our way back to each other.",
       "I've joked so many times that you're lucky I love you this much… but if I'm being honest, it's because my love for you has never been based on perfection.",
       "I've seen your best days and your difficult days. The version of you that's confident and the one that doubts herself. The parts of you that are easy to love and the parts that are still growing.",
       "And through it all… I've loved you the same. Not because you're perfect — but because you're you.",
