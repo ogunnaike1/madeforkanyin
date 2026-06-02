@@ -122,7 +122,7 @@ export const STORY: StorySection[] = [
       "Blessings that don't just meet your expectations… but exceed them.",
     ],
     blessing: [
-      "May your dreams slowly but surely come true.",
+      "May every one of your dreams come true",
       "May your heart stay soft, even when life tries to harden it.",
       "May your smile stay real.",
     ],
