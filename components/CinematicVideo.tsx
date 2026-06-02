@@ -13,10 +13,10 @@ export function CinematicVideo({ src }: { src: string }) {
     const el = wrapRef.current;
     if (!el) return;
 
-    // Preload src when 400px away
+    // Preload src when 1200px away
     const preloadObserver = new IntersectionObserver(
       ([entry]) => { if (entry.isIntersecting) { setActiveSrc(src); preloadObserver.disconnect(); } },
-      { rootMargin: "400px", threshold: 0 }
+      { rootMargin: "1200px", threshold: 0 }
     );
 
     // Play/pause when in view

@@ -21,10 +21,10 @@ export function VideoCard({ src, idx = 0, label }: VideoCardProps) {
     const el = wrapRef.current;
     if (!el) return;
 
-    // Load src when 300px away from viewport
+    // Load src when 1200px away from viewport
     const preloadObserver = new IntersectionObserver(
       ([entry]) => { if (entry.isIntersecting) { setActiveSrc(src); preloadObserver.disconnect(); } },
-      { rootMargin: "300px", threshold: 0 }
+      { rootMargin: "1200px", threshold: 0 }
     );
 
     // Play/pause when actually visible

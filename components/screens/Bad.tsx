@@ -5,8 +5,8 @@ import { STORY } from "@/lib/data";
 import { Reveal, SectionHead, SectionBody } from "./StoryUtils";
 
 const BAD_VIDEOS = [
-  "https://res.cloudinary.com/dhmqhless/video/upload/f_mp4,vc_h264,q_auto:good,w_480,br_600k/v1780325537/kanyin-16_s2buix.mp4",
-  "https://res.cloudinary.com/dhmqhless/video/upload/f_mp4,vc_h264,q_auto:good,w_480,br_600k/v1780326118/kanyin-17_tbc9hp.mp4",
+  "https://res.cloudinary.com/dhmqhless/video/upload/f_mp4,vc_h264,q_auto:low,w_360,br_400k/v1780325537/kanyin-16_s2buix.mp4",
+  "https://res.cloudinary.com/dhmqhless/video/upload/f_mp4,vc_h264,q_auto:low,w_360,br_400k/v1780326118/kanyin-17_tbc9hp.mp4",
 ];
 
 export function Bad({ onNext }: { onNext: () => void }) {

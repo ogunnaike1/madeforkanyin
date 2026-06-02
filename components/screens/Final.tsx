@@ -52,7 +52,7 @@ export function Final({ onReplay }: { onReplay: () => void }) {
           <PhotoFrame
             caption="the birthday girl ✨"
             idx={1}
-            src="https://res.cloudinary.com/dhmqhless/image/upload/v1780325536/kanyin-9_u1wu9k.jpg"
+            src="https://res.cloudinary.com/dhmqhless/image/upload/v1780432432/image-kayin_jnvy7a.jpg"
           />
         </motion.div>
 
