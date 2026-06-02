@@ -4,7 +4,7 @@ import { CinematicVideo } from "@/components/CinematicVideo";
 import { STORY } from "@/lib/data";
 import { Reveal, SectionHead, SectionBody } from "./StoryUtils";
 
-const STORY_VIDEO = "https://res.cloudinary.com/dhmqhless/video/upload/f_mp4,vc_h264,q_auto/v1780326125/kanyin-14_gnuncu.mp4";
+const STORY_VIDEO = "https://res.cloudinary.com/dhmqhless/video/upload/f_mp4,vc_h264,q_auto:good,w_720,br_800k/v1780326125/kanyin-14_gnuncu.mp4";
 
 export function Story({ onNext }: { onNext: () => void }) {
   const s = STORY[1]; // "our story"
