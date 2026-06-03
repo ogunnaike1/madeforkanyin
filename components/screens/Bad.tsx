@@ -22,7 +22,7 @@ export function Bad({ onNext }: { onNext: () => void }) {
 
           <div className="video-block">
             <Reveal className="photo-note-wrap">
-              <p className="ff-script photo-note">but look at her though… 🤍</p>
+              <p className="ff-script photo-note"></p>
             </Reveal>
             <div className="video-grid">
               {BAD_VIDEOS.map((url, i) => (

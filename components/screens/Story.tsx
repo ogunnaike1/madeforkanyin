@@ -25,7 +25,7 @@ export function Story({ onNext }: { onNext: () => void }) {
           {/* new video — above the photos */}
           <div className="video-block">
             <div className="video-grid" style={{ justifyContent: "center" }}>
-              <VideoCard src={NEW_VIDEO} idx={0} label="us 🤍" />
+              <VideoCard src={NEW_VIDEO} idx={0} label="from the very beginning 🌸" />
             </div>
           </div>
 

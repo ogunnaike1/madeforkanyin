@@ -58,8 +58,8 @@ export const STORY: StorySection[] = [
       "And that's something I will never take for granted.",
     ],
     photos: [
-      { caption: "from the very beginning 🌸", src: "https://res.cloudinary.com/dhmqhless/image/upload/f_auto,q_auto/v1780325617/kanyin-13.jpeg.HEIC.jpeg_cneo1r.heic" },
-      { caption: "look at us 🤍", src: "https://res.cloudinary.com/dhmqhless/image/upload/f_auto,q_auto/v1780325530/kanyin-12.jpeg.HEIC_fhkelc.jpg" },
+      { caption: "Signing out ✍🏾", src: "https://res.cloudinary.com/dhmqhless/image/upload/f_auto,q_auto/v1780325617/kanyin-13.jpeg.HEIC.jpeg_cneo1r.heic" },
+      { caption: "Fully certified 🎓", src: "https://res.cloudinary.com/dhmqhless/image/upload/f_auto,q_auto/v1780325530/kanyin-12.jpeg.HEIC_fhkelc.jpg" },
     ],
     photoNote: "Some things are just meant to be…",
   },
@@ -87,16 +87,11 @@ export const STORY: StorySection[] = [
     title: "Not every chapter was easy",
     paras: [
       "Life hasn't always been kind to either of us.",
-      "There were moments in our friendship that weren't easy — moments when we disappointed each other, misunderstood each other, or simply couldn't show up the way we needed. We are human, after all.",
-      "One of those moments taught me something important about us. When I was feeling unwell, things didn't happen quite the way I expected, and for a while I sat with that.",
-      "But when I look back now, what stays with me isn't the disappointment… it's what came after.",
-    ],
-    parasAfter: [
-      "You came back. We talked about it. We understood each other. And we chose our friendship anyway. That's one thing I love about us — we don't pretend we're perfect. We make mistakes, we learn, we grow… and somehow, we always find our way back to each other.",
+      "There were moments in our friendship that weren't easy — moments when we disappointed each other, misunderstood each other, or simply couldn't show up the way we needed to. We are human, after all.",
+      "One of those moments taught me something important about us: we don't pretend we're perfect. We make mistakes, we learn, we grow… and somehow, we always find our way back to each other.",
       "I've joked so many times that you're lucky I love you this much… but if I'm being honest, it's because my love for you has never been based on perfection.",
       "I've seen your best days and your difficult days. The version of you that's confident and the one that doubts herself. The parts of you that are easy to love and the parts that are still growing.",
       "And through it all… I've loved you the same. Not because you're perfect — but because you're you.",
-
     ],
     photos: [
       { caption: "still her, through it all 🤍", src: "https://res.cloudinary.com/dhmqhless/image/upload/v1780325534/kanyin-8_qi1bpv.jpg" },
