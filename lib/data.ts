@@ -5,7 +5,7 @@ export const CONFIG = {
   secretCode: "143",
   codeHint: "",
   // Optional: set a URL or path like "/audio/song.mp3" to enable music
-  musicUrl: "https://res.cloudinary.com/dhmqhless/video/upload/f_mp3,q_auto/v1780326163/Lord_Huron_-_The_Night_We_Met_kh7xus.mp3",
+  musicUrl: "https://res.cloudinary.com/dhmqhless/video/upload/f_mp3,q_auto/v1780527339/CHRISTINA_PERRI_-_A_THOUSAND_YEARS_INSTRUMENTAL_i7qngn.mp3",
 };
 
 export interface StorySection {
