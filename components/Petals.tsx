@@ -1,5 +1,5 @@
 "use client";
-import { useMemo } from "react";
+import { useState, useEffect } from "react";
 
 interface PetalItem {
   id: number;
@@ -13,19 +13,25 @@ interface PetalItem {
 }
 
 export function Petals({ count = 18 }: { count?: number }) {
-  const items = useMemo<PetalItem[]>(() => {
+  const [items, setItems] = useState<PetalItem[]>([]);
+
+  useEffect(() => {
     const glyphs = ["❀", "✿", "♡", "❁", "✦"];
-    return Array.from({ length: count }).map((_, i) => ({
-      id: i,
-      left: Math.random() * 100,
-      size: 10 + Math.random() * 20,
-      delay: -Math.random() * 18,
-      dur: 16 + Math.random() * 14,
-      drift: (Math.random() - 0.5) * 60,
-      glyph: glyphs[Math.floor(Math.random() * glyphs.length)],
-      op: 0.12 + Math.random() * 0.25,
-    }));
+    setItems(
+      Array.from({ length: count }).map((_, i) => ({
+        id: i,
+        left: Math.random() * 100,
+        size: 10 + Math.random() * 20,
+        delay: -Math.random() * 18,
+        dur: 16 + Math.random() * 14,
+        drift: (Math.random() - 0.5) * 60,
+        glyph: glyphs[Math.floor(Math.random() * glyphs.length)],
+        op: 0.12 + Math.random() * 0.25,
+      }))
+    );
   }, [count]);
+
+  if (items.length === 0) return null;
 
   return (
     <div className="petals" aria-hidden="true">
