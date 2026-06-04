@@ -294,7 +294,7 @@ body::after {
 
 .cv-frame {
   position: relative; z-index: 1;
-  width: 100%; aspect-ratio: 16 / 9;
+  width: 100%;
   border-radius: 14px; overflow: hidden;
   background: #0d060f;
   box-shadow: 0 30px 60px -20px rgba(0,0,0,0.85);
@@ -302,7 +302,7 @@ body::after {
 }
 
 .cv-video {
-  width: 100%; height: 100%; object-fit: contain; display: block; background: #0d060f;
+  width: 100%; height: auto; display: block; background: #0d060f;
 }
 
 /* film grain */

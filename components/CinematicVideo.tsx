@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 export function CinematicVideo({ src }: { src: string }) {
   const wrapRef = useRef<HTMLDivElement>(null);
+  const frameRef = useRef<HTMLDivElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const [activeSrc, setActiveSrc] = useState("");
   const [inView, setInView] = useState(false);
@@ -13,13 +14,10 @@ export function CinematicVideo({ src }: { src: string }) {
     const el = wrapRef.current;
     if (!el) return;
 
-    // Preload src when 1200px away
     const preloadObserver = new IntersectionObserver(
       ([entry]) => { if (entry.isIntersecting) { setActiveSrc(src); preloadObserver.disconnect(); } },
       { rootMargin: "1200px", threshold: 0 }
     );
-
-    // Play/pause when in view
     const playObserver = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) setEntered(true);
@@ -44,6 +42,20 @@ export function CinematicVideo({ src }: { src: string }) {
     }
   }, [inView, activeSrc]);
 
+  // Resize frame to the video's actual aspect ratio
+  const handleMetadata = () => {
+    const v = videoRef.current;
+    const f = frameRef.current;
+    if (!v || !f) return;
+    f.style.aspectRatio = `${v.videoWidth} / ${v.videoHeight}`;
+    if (v.videoHeight > v.videoWidth) {
+      // portrait — cap height so it doesn't dominate the screen
+      f.style.maxHeight = "70vh";
+      f.style.width = "auto";
+      f.style.maxWidth = "100%";
+    }
+  };
+
   return (
     <motion.div
       ref={wrapRef}
@@ -60,7 +72,7 @@ export function CinematicVideo({ src }: { src: string }) {
         transition={{ duration: 0.5 }}
       />
 
-      <div className="cv-frame">
+      <div ref={frameRef} className="cv-frame">
         {activeSrc && (
           <video
             ref={videoRef}
@@ -71,6 +83,7 @@ export function CinematicVideo({ src }: { src: string }) {
             preload="auto"
             crossOrigin="anonymous"
             className="cv-video"
+            onLoadedMetadata={handleMetadata}
           />
         )}
 
