@@ -6,7 +6,7 @@ import { CinematicVideo } from "@/components/CinematicVideo";
 import { STORY } from "@/lib/data";
 import { Reveal, SectionHead, Paras, PullQuote } from "./StoryUtils";
 
-const STORY_VIDEO = "https://res.cloudinary.com/dhmqhless/video/upload/f_mp4,vc_h264,q_auto:low,w_540,br_600k/v1780326125/kanyin-14_gnuncu.mp4";
+const STORY_VIDEO = "https://res.cloudinary.com/dhmqhless/video/upload/f_mp4,vc_h264,q_auto:low,w_540,br_600k/v1780601976/kanyin_last_k8qov4.mp4";
 
 const NEW_VIDEO = "https://res.cloudinary.com/dhmqhless/video/upload/f_mp4,vc_h264,q_auto:low,w_360,br_400k/v1780431619/kanyin-video_szvpp2.mp4";
 

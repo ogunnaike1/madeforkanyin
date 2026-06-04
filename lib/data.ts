@@ -2,8 +2,8 @@ export const CONFIG = {
   displayName: "Kanyin",
   fullName: "Adetona Kanyinsola Folarera",
   // 🔐 Change this to something only she would know
-  secretCode: "143",
-  codeHint: "",
+  secretCode: "shanice",
+  codeHint: "It's the nickname you gave me because you think I have attitude 😏",
   // Optional: set a URL or path like "/audio/song.mp3" to enable music
   musicUrl: "https://res.cloudinary.com/dhmqhless/video/upload/f_mp3,q_auto/v1780527339/CHRISTINA_PERRI_-_A_THOUSAND_YEARS_INSTRUMENTAL_i7qngn.mp3",
 };
